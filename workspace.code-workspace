@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "E:\\Aprendre le web\\E- Projet 5_génerer des citations"
+		},
+		{
+			"path": "E:\\Aprendre le web\\G- Projet 7_formulaire connection"
+		},
+		{
+			"path": "E:\\Aprendre le web\\H- Projet 8_inscription par filière"
+		},
+		{
+			"path": "E:\\Aprendre le web\\F- Projet 6_formulaire inscription"
+		},
+		{
+			"path": "E:\\Aprendre le web\\I- Projet 9_recette food"
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "e:\\Aprendre le web\\I- Projet 9_recette food\\index.html"
+	}
+}

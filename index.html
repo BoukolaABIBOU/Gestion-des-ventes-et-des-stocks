@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js "> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gestionnaire de ventes & stocks</title>
+        <meta name="description" content="">
+        <!-- 
+    	Volton Template
+    	http://www.templatemo.com/tm-441-volton
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/templatemo-style.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+        <div class="responsive-header visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="top-section">
+                            <div class="profile-image">
+                                <img src="assets/img/profile.jpg" alt="Volton">
+                            </div>
+                            <div class="profile-content">
+                                <h3 class="profile-title">Marketing</h3>
+                                <p class="profile-description">Gestion stocks & caisse</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+                <div class="main-navigation responsive-menu">
+                    <ul class="navigation">
+                        <li><a href="#top"><i class="fa fa-home"></i>Accueil</a></li>
+                        <li><a href="#about"><i class="fa fa-user"></i>Gestionnaire de stock</a></li>
+                        <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Gestionnaire de vente</a></li>
+                        <li><a href="#contact"><i class="fa fa-envelope"></i>Impression</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar-menu hidden-xs hidden-sm">
+            <div class="top-section">
+                <div class="profile-image">
+                    <img src="assets/img/profile.jpg" alt="Volton">
+                </div>
+                <h3 class="profile-title"> Logiciel Marketing</h3>
+                <p class="profile-description">Gestion stocks & vente</p>
+            </div> <!-- top-section -->
+            <div class="main-navigation">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-globe"></i>Acceuil</a></li>
+                    <li><a href="#about"><i class="fa fa-pencil"></i>Gestionnaire de stock</a></li>
+                    <li><a href="#projects"><i class="fa fa-paperclip"></i>Gestionnaire de vente</a></li>
+                    <li><a href="#contact"><i class="fa fa-link"></i>Impression</a></li>
+                </ul>
+            </div> <!-- .main-navigation -->
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div> <!-- .social-icons -->
+        </div> <!-- .sidebar-menu -->
+        
+
+        <div class="banner-bg" id="top">
+            <div class="banner-overlay"></div>
+            <div class="welcome-text">
+                <h2>Société ........... </h2>
+                <h5>Device : Livraison rapide - Fiabilité des produits - Clientèle sastifait </h5>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <div class="fluid-container">
+
+                <div class="content-wrapper">
+                
+                    <!-- STOCKS -->
+                    <div class="page-section" id="about">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Gestion des stocks</h4>
+
+                            <!--Formulaire pour gestion des stocks-->
+                        
+                            <p>Remplissez ce formulaire de gestion des stocks pour enregistrer tout les marchandises de votre magasin. <span class="blue">Ces informations seront stockés dans la bases de données de votre </span><span class="green">Logiciel Marketing</span>. Le bouton <strong>Enregistrer </strong>pour enregistrer touts les informations inscrits.En cas de <strong>modification, suppression, ou mise à jour </strong> cliquer respectivement sur les boutons <strong>modifier ,supprimer , à jour</strong> .</p>
+                            
+                              <!--Deroulement du formulaire-->
+                            <link rel="stylesheet" href="assets/css/stock.css">
+                            <div class="page-stock">
+                                <div class="stock">
+                                    <aside>
+                                       <!-- <fieldset class="count">
+                                         <legend>Gestionnaire de stock</legend> -->
+                                         <form method="POST" enctype="multipart/form-data">
+                                           <div class="input">
+                                               <label for="id">Identifiant:</label>
+                                               <select name="id" id="#" >
+                                                   <option value="id_1">Identifiant par famille</option>
+                                                   <option value="id_2">A01</option>
+                                                   <option value="id_3">B01</option>
+                                               </select>
+                                           </div>
+                                           <div class="input">
+                                               <label for="fam">Famille:</label>
+                                               <select name="id" id="#" >
+                                                <option value="id_1">Famille par produit</option>
+                                                <option value="id_2">Savon éclairssisant</option>
+                                                <option value="id_3">Pommade contre tâche</option>
+                                            </select>
+                                           </div>
+                                           <div class="input">
+                                               <label>Code: </label> <br>
+                                            <input type="text" id="#" name="code" >
+                                        </div>
+                                        <div class="input">
+                                            <label>Designation:</label>
+                                            <input type="text" id="#" name="design" >
+                                        </div>
+                                        <div class="input">
+                                            <label>Prix d'achat:</label>
+                                            <input type="text" id="#" name="Pa" >
+                                        </div>
+                                        <div class="input">
+                                            <label>Prix de vente:</label>
+                                            <input type="text" id="#" name="Pu" >
+                                        </div>
+                                    </form>
+                                    </aside> 
+                                </div>
+                                <div class="crud">
+                                    <div class="btn-1">
+                                        <a href="#">Ajouter</a>
+                                    </div>
+                                    <div class="btn-2">
+                                        <a href="#">Modifier</a>
+                                    </div>
+                                    <div class="btn-3">
+                                        <a href="#">Supprimer</a>
+                                    </div>
+                                    <div class="btn-4">
+                                        <a href="#">Mise à jour</a>
+                                    </div> 
+                                </div>
+                            </div>
+
+                            <hr>
+                        </div>
+                    </div> <!-- #Stocks -->
+                    </div>
+                    
+                    <!-- VENTES -->
+                    <div class="page-section" id="projects">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Gestion des ventes</h4>
+                            <p>Dans ce formulaire de gestion des ventes ,toutes les cases sont à remplies .Ce formulaire renseigne sur tous les informations relative à la clientèle de cette société (les produits achétés, la somme remis, le réliquat rendu, etc..) par heure, par jour ,par mois ,où par année . </p>
+                                
+                                    <!--Deroulement du formulaire de vente-->
+                            <link rel="stylesheet" href="assets/css/vente.css">
+                            <div class="page-vente">
+                                <div class="vente">
+                                    <aside>
+                                         <form method="POST" enctype="multipart/form-data">
+                                           <div class="input">
+                                               <label for="id">Identifiant:</label>
+                                               <select name="id" id="#" >
+                                                   <option value="id_1">Identifiant par famille</option>
+                                                   <option value="id_2">A01</option>
+                                                   <option value="id_3">B01</option>
+                                               </select>
+                                           </div>
+                                           
+                                           <div class="input">
+                                               <label>Code: </label> <br>
+                                            <input type="text" id="#" name="code" >
+                                           </div>
+                                        
+                                          <div class="input">
+                                            <label>Prix d'achat:</label>
+                                            <input type="text" id="#" name="Pa" >
+                                         </div>
+                                        <div class="input">
+                                            <label>Prix de vente:</label>
+                                            <input type="text" id="#" name="Pu" >
+                                        </div>
+                                    </form>
+                                    </aside> 
+                                </div>
+                                <div class="crud">
+                                    <div class="btn-1">
+                                        <a href="#">Ajouter</a>
+                                    </div>
+                                    <div class="btn-2">
+                                        <a href="#">Modifier</a>
+                                    </div>
+                                    <div class="btn-3">
+                                        <a href="#">Supprimer</a>
+                                    </div>
+                                    <div class="btn-4">
+                                        <a href="#">Mise à jour</a>
+                                    </div> 
+                                </div>
+                            </div>
+
+                        </div>   
+                    </div> <!-- END Ventes -->
+                    </div>
+                    <hr>
+
+                    <!-- Impression -->
+                    <div class="page-section" id="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Imprime-Moi</h4>
+                            <p>Les <strong>informations</strong> remplies précedemments génere automatiquement <strong> un formulaire</strong> ci-dessus.Veuillez <strong>l'imprimer</strong>,elle répresente dorénavant le reçu de votre <strong>clientèle</strong> . </p>
+                        </div>
+                    </div><!--END Impression -->
+                    </div>
+                    <hr>
+
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <p class="copyright-text">Copyright &copy; 2015 Company Name</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/min/plugins.min.js"></script>
+        <script src="assets/js/min/main.min.js"></script>
+
+    </body>
+</html>
